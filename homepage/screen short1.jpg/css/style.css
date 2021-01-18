@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .container {
+    overflow: hidden;
+    background-color: rgb(5, 12, 17);
+  }
+  
+  .container a {
+    float: left;
+    color: #e6f1f3;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .container a:hover {
+    background-color: rgb(23, 207, 231);
+    color: black;
+  }
+  
+  .container a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  .container-right{
+      float: right;
+  }
+  
+   
+  

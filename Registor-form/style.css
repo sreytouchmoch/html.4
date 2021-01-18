@@ -1,0 +1,10 @@
+id{
+    background-color: bisque;
+    border:solid 1 px black;
+    widows: 200px;
+    height: 30px;
+}
+fieldset{
+    height: 60%;
+    width: 40%;
+}

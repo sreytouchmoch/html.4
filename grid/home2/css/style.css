@@ -1,0 +1,25 @@
+.container{
+    width: 90%;
+    margin:0px solid blue;
+    margin: auto;
+}
+table{
+    border-collapse: collapse orange;
+    width: 70%;
+}
+td,th {
+    background:orchid;
+}
+tr:nth-child(even){
+    background: palegreen;
+}
+td{
+    background: palevioletred;
+    width: auto;
+    text-align: center;
+    color:#f1f8f4;
+}
+th{
+    color:rgb(7, 10, 7);
+    background:turquoise;
+}

@@ -1,0 +1,15 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap:10px;
+    background-color: rgb(247, 100, 15);
+}
+.item{
+    background:turquoise;
+    color:rgb(247, 85, 10);
+    font-size: 40px;
+    padding: 10px;
+    text-align: center;
+    text-align: none;
+}

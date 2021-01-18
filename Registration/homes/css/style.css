@@ -1,0 +1,93 @@
+* {
+
+    padding: 0;
+    margin: 0;
+}
+h3{
+    text-align: center;
+    margin: 0px 50px 0px 50px;
+    color:#eee;
+    
+}
+body, div, form,select {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: Roboto, arial, sans-serif;
+    font-size: 16px;
+    color:#eee;
+}
+.main-block{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 25px;
+}
+form{
+    background: rgba(0,0,0,0.7);
+    border-radius: 10px;
+    padding: 50px;
+    width: 25%;
+}
+.info{
+   padding-top:20px;
+   display: flex;
+   flex-direction: column;
+}
+input[type=full],
+input[type=email],
+input[type=phone],
+input[type=password],
+input[type=number],
+ select{
+    padding: 5px;
+    margin-bottom: 20px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+}
+input::placeholder {
+    color: #aaa;
+}
+.checkbox{
+    margin:0 10px 0 0;
+    vertical-align: middle;
+}
+option{
+    border: none;
+}
+input[type=submit]{
+    background:rgb(146, 146, 226);
+    border: none;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    color: white;
+    border-radius: 20px;
+}
+.logo{
+    background:green;
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+  list-style: none;
+  display: flex;
+  margin: 0;
+}
+ul li {
+    padding: 15px;
+}
+ul li:hover{
+    background-color: blue;
+}
+ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+ul li a:hover{
+    text-decoration: underline;
+}

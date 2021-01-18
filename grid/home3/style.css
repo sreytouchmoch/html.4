@@ -1,0 +1,30 @@
+.container{
+    width: 80%;
+    margin: auto;
+
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    font-family: sans-serif;
+}
+tr,td,th{
+   border: 2px solid darkgreen;
+   text-align: center;
+}
+tbody:nth-child(even){
+    background:chocolate;
+    
+}
+th{
+    background: cyan;
+    text-align: center;
+}
+h2{
+    text-transform: uppercase;
+    color:darkolivegreen;
+}
+.cover-menu{
+    display: flex;
+
+}
